@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d38674ccf9b24b4f8d3d671c7007d6e, type: 3}
+  m_Name: GridTileInfo
+  m_EditorClassIdentifier: 
+  <DefaultGridMaterial>k__BackingField: {fileID: 2100000, guid: 1e1ef904aee978a45b2f3b0ba223e16f, type: 2}
+  <PathGridMaterial>k__BackingField: {fileID: 2100000, guid: 87e15a6e45d36e845a18a2a96bc27d47, type: 2}
+  <BuildingGridMaterial>k__BackingField: {fileID: 2100000, guid: 1e1ef904aee978a45b2f3b0ba223e16f, type: 2}
+  <SelectionGridMaterial>k__BackingField: {fileID: 2100000, guid: 322bcd587c35b14488fdaa838dbd28de, type: 2}
+  <SpawnPathGridMaterial>k__BackingField: {fileID: 2100000, guid: e14f9350d2064f44fa4284224746569a, type: 2}
+  <FinishPathGridMaterial>k__BackingField: {fileID: 2100000, guid: a12d396645cfef343a748a64d447235f, type: 2}

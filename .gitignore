@@ -56,10 +56,17 @@ ExportedObj/
 sysinfo.txt
 
 # Builds
-*.apk
 *.aab
 *.unitypackage
 *.app
+
+# Allow TestPresentationAPK folder and its contents
+!TestPresentationAPK/
+!TestPresentationAPK/*.apk
+
+# Rider IDE
+.idea/
+.idea/workspace.xml
 
 # Crashlytics generated file
 crashlytics-build.properties

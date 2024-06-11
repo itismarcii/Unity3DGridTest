@@ -1,0 +1,76 @@
+{
+    "name": "InputHandler",
+    "maps": [
+        {
+            "name": "TouchWorld",
+            "id": "a5ffc0a4-5842-4183-96e0-8dd9ca4dfe22",
+            "actions": [
+                {
+                    "name": "MainAction",
+                    "type": "Button",
+                    "id": "de239ee0-e436-471a-977c-e40e469a3f98",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SecondaryAction",
+                    "type": "Button",
+                    "id": "fd4c76a8-c574-4274-b798-d72d8e1fbde1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "90ed90d4-3e01-4a2e-99b5-f41a80831379",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MainAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "110873b3-45d1-4516-9e85-7835a174fdc5",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "Hold(duration=0.2,pressPoint=0.125)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MainAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3607aa3f-bb5b-4d34-87c2-5dc2b7149b92",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SecondaryAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a299e933-1623-4ecd-bfe9-009e4a0e7476",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "Hold(duration=0.8,pressPoint=0.5)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SecondaryAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

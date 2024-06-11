@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52cf475ea85f3bf4a9ebadb041d44968, type: 3}
+  m_Name: LevelInfo
+  m_EditorClassIdentifier: 
+  <Levels>k__BackingField:
+  - Infos:
+    - Amount: 10
+      SpawnDelay: 0
+      SpawnInterval: 2
+      EnemyInfo: {fileID: 11400000, guid: 4e7d90919d1962c43a88ac5abe6ed738, type: 2}
+  - Infos:
+    - Amount: 15
+      SpawnDelay: 0
+      SpawnInterval: 1.5
+      EnemyInfo: {fileID: 11400000, guid: 4e7d90919d1962c43a88ac5abe6ed738, type: 2}
+  - Infos:
+    - Amount: 10
+      SpawnDelay: 0
+      SpawnInterval: 2
+      EnemyInfo: {fileID: 11400000, guid: 4e7d90919d1962c43a88ac5abe6ed738, type: 2}
+    - Amount: 5
+      SpawnDelay: 30
+      SpawnInterval: 1
+      EnemyInfo: {fileID: 11400000, guid: 4e7d90919d1962c43a88ac5abe6ed738, type: 2}
+  - Infos:
+    - Amount: 10
+      SpawnDelay: 0
+      SpawnInterval: 2
+      EnemyInfo: {fileID: 11400000, guid: 4e7d90919d1962c43a88ac5abe6ed738, type: 2}
+    - Amount: 2
+      SpawnDelay: 0
+      SpawnInterval: 10
+      EnemyInfo: {fileID: 11400000, guid: 74e8583a432bf734191378acb5bd2ce2, type: 2}
